@@ -6,7 +6,7 @@ set -e
 cd /node/src
 
 echo "Downloading npm dependencies"
-npm install
+npm update
 
 echo "Downloading bower dependencies"
 bower install
