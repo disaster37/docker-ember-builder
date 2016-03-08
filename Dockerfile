@@ -15,6 +15,8 @@ RUN useradd -m dev
 RUN mkdir -p /node/src
 RUN chown -R dev /node/src
 
+WORKDIR /node/src
+
 
 USER dev
 
