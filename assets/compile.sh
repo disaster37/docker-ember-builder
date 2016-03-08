@@ -3,7 +3,7 @@
 set -e
 
 # Set directory to where we expect code to be
-cd /node/src/${SOURCE_PATH}
+cd /node/src
 
 echo "Downloading npm dependencies"
 npm install
